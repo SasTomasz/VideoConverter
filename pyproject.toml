@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "videoconverter"
+version = "0.1.0"
+description = ""
+authors = ["tomasz_sas <tomaszsas.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
