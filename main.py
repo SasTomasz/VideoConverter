@@ -9,9 +9,10 @@ def convert_to_gray(image):
 
 
 def main():
+    st.title("Color to Grayscale Converter")
     uploaded_file = st.file_uploader("Upload image")
 
-    with st.expander("Video"):
+    with st.expander("Start Camera"):
         picture = st.camera_input("Camera")
 
     if uploaded_file:
